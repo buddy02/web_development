@@ -1,0 +1,44 @@
+img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #008CBA;
+}
+
+.f {
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.fl {
+    text-align: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    width: 230px;
+    box-shadow: 2px 2px 10px black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fle {
+    background-color: plum;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 8px 20px;
+}

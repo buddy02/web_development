@@ -1,0 +1,44 @@
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+body{
+    background-color: teal;
+}
+h2{
+    color: #2E8BC0;
+}
+p{
+    color: slateblue;
+}
+.a1 {
+    position: relative;
+    width: 50px;
+    left: 80px;
+    bottom: 40px;
+}
+
+.a {
+    position: relative;
+    width: 50px;
+    top: 45px;
+}
+.f {
+    background-color: #FFAEBC;
+    width: 270px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    box-shadow: 2px 1px 10px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.fl {
+    display: flex;
+    justify-content: space-around;
+    
+}

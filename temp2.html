@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+  footer {
+    background-color: #0b3e64;
+    color: white;
+  }
+
+  footer div div h6 {
+    color: #A0C4D2;
+  }
+
+  a,
+  h6,
+  body {
+    color: #0B3E64;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  body {
+    background-color: #FCFAF4;
+    box-sizing: border-box;
+  }
+
+  .vertical {
+    background-color: #CFDEE2;
+    padding: 54px 60px;
+    font-size: 0.9rem;
+  }
+
+  .container {
+    padding: 1%;
+  }
+
+  .search-bar {
+    width: 100%;
+    background-color: #FCFAF4;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+
+  }
+
+  .search-bar input {
+    background: transparent;
+    flex: 1;
+    width: 100%;
+    border: 0;
+    outline: none;
+    height: 60px;
+  }
+
+  .search-bar i {
+    color: #6397ab;
+    padding: 0px 10px;
+  }
+
+  ::placeholder {
+    color: #6397ab;
+    font-weight: bold;
+  }
+
+  .navbar {
+    background-color: #FCFAF4;
+    font-weight: bold;
+    padding: 15px;
+  }
+
+  .ls {
+    letter-spacing: 2px;
+  }
+
+  .ls1 {
+    letter-spacing: 1px;
+    padding-bottom: 0.7rem;
+  }
+
+  button {
+    background-color: #0B3E64;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+  }
+
+  .ft {
+    font-size: 0.8rem;
+    padding: 5px 0px;
+  }
+
+  .caca {
+    width: 500px;
+  }
+</style>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-md">
+    <div class="container-fluid">
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#na">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="na">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Shop</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link text-dark">Ayurveda</a></li>
+        </ul>
+      </div>
+      <a class="navbar-brand">
+        <i class="bi bi-search" data-bs-toggle="dropdown"></i>
+        <div class="dropdown-menu p-0 w-100 border-0 border-top">
+          <form class="search-bar">
+            <i class="bi bi-search"></i>
+            <input type="search" placeholder="SEARCH...">
+          </form>
+        </div></i>
+        <i class="bi bi-bag p-3"></i>
+      </a>
+    </div>
+
+  </nav>
+
+  <div class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2000"><img
+          src="https://cdn.shopify.com/s/files/1/0498/8764/1749/files/1_1800x.jpg?v=1616778733" alt=""></div>
+      <div class="carousel-item" data-bs-interval="2000"><img
+          src="https://cdn.shopify.com/s/files/1/0498/8764/1749/files/2.1_1800x.jpg?v=1620810312" alt=""></div>
+      <div class="carousel-item" data-bs-interval="2000"><img
+          src="https://cdn.shopify.com/s/files/1/0498/8764/1749/files/4_1800x.jpg?v=1616778778" alt=""></div>
+      <div class="carousel-item" data-bs-interval="2000"><img
+          src="https://cdn.shopify.com/s/files/1/0498/8764/1749/files/3_1800x.jpg?v=1616778799" alt=""></div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <h6 style="font-size: 0.7rem; font-weight: 600;" class="mt-5 ls">FEATURED COLLECTION</h6>
+    <h4 class="py-2 ls"><b>OILS TO NOURISH YOUR BODY AND SOUL</b></h4>
+    <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 py-5">
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/rosehip2_600x.png?v=1617089619" alt="">
+          <div class="card-body">
+            <h6>REGENERATING FACE SERUM</h6>
+            <p>€29,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/apricot2_1000x.png?v=1612390326" alt="">
+          <div class="card-body">
+            <h6>NOURISHING ELIXIR</h6>
+            <p>€34,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/moringa_1000x.png?v=1624903416" alt="">
+          <div class="card-body">
+            <h6>HEALING CONCENTRATE</h6>
+            <p>€34,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="mb-5"><b>VIEW ALL PRODUCTS</b></button>
+  </div>
+  <div class="row justify-content-center">
+    <img class="p-0 col-lg-6 col-md-8 col-xl-5"
+      src="https://cdn.shopify.com/s/files/1/0498/8764/1749/files/our_story_1000x.jpg?v=1612458703" alt="">
+    <div class="col-lg-6 col-md-8 col-xl-5 vertical">
+      <div class="mt-auto">
+        <h6 class="ls mt-5" style="font-size: 0.7rem; padding-bottom: 0.7rem;"><b>AYURVEDA IS OUR MUSE</b></h6>
+        <h4 class="ls" style="font-size: 1.3rem; padding-bottom: 1.2rem;"><b>BACK TO BASICS</b></h4>
+        <p class="text-dark ls1">It is one of the oldest health systems in the world for harmonising mind-body-soul or
+          the
+          science of life <b>(in sanskrit, ayur means life + veda means knowledge/science).</b> </p>
+        <p class="text-dark ls1"><b>Nalen Ayurveda</b> products are made with powerful natural and organic ingredients
+          that
+          bring your skin to its own perfect balance.</p>
+        <a href="#"><b>Learn more</b></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center">
+    <h6 style="font-size: 0.7rem; font-weight: 600;" class="mt-5 ls">DISCOVER</h6>
+    <h4 class="py-2 ls"><b>OUR PRODUCTS</b></h4>
+    <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 py-5">
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/cream_600x.jpg?v=1624901800" alt="">
+          <div class="card-body">
+            <h6>HYDRATING FACE CREAM</h6>
+            <p>€44,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/triveni_900x.jpg?v=1617089965" alt="">
+          <div class="card-body">
+            <h6>TRIVENI: THE PERFECT TRIO</h6>
+            <p>€88,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <img src="https://cdn.shopify.com/s/files/1/0498/8764/1749/products/tonercolor_900x.jpg?v=1624901753" alt="">
+          <div class="card-body">
+            <h6>BALANCING TONER</h6>
+            <p>€28,95</p>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <span>2 reviews</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="row p-5 mt-5">
+      <div class="col-3">
+        <h6 class="ft">NALEN AYURVEDA</h6>
+        <h5 class="ft">Copyright © Nalen Ayurveda</h5>
+        <h5 class="ft">© 2021 True and Natural Company
+          OÜ. All rights reserved.</h5>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-pinterest"></i>
+      </div>
+      <div class="col-3">
+        <h6 class="ft">ABOUT</h6>
+        <h5 class="ft">SHIPPING & RETURNS</h5>
+        <h5 class="ft">BLOG</h5>
+        <h5 class="ft">CONTACT US</h5>
+      </div>
+      <div class="col-3">
+        <h6 class="ft">POLICIES</h6>
+        <h5 class="ft">PRIVACY POLICY</h5>
+        <h5 class="ft">TERMS & CONDITIONS</h5>
+      </div>
+      <div class="col-3">
+        <h6 class="ft">HEY!</h6>
+        <p class="ft">Enter your email to stay in the loop on new collections, pop-up shows and more.</p>
+        <h5 class="ft">SUBSCRIBE</h5>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

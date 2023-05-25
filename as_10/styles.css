@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.banner{
+    color: white;
+    background-color: #3acec2; 
+    text-align: center; 
+    padding: 50px;
+}
+body{
+    margin: 0%;
+    line-height: 1.5;
+    font-family: 'Varela Round', sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto;
+    padding: 30px;
+    gap: 30px;
+}
+.nav{
+    display: grid;
+    grid-template-columns: 60% auto;
+    margin: 0;
+    border: 0;
+    padding: 0;
+
+}
+.na{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+    color: #3acec2;
+    text-transform: uppercase;
+    padding-top: 8px;
+}
+h4{
+    padding-left: 30px;
+}

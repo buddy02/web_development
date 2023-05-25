@@ -1,0 +1,55 @@
+.f {
+    background: #571212;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: 66% auto;
+    padding: 80px;
+}
+body {
+    background: red;
+    font-family: 'Source Sans Pro';
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 60% 40%;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    font-weight: 500;
+}
+a {
+    text-decoration:none;
+    color:red;
+    font-size:1.8em;
+    font-weight:700;
+}
+header{
+    background-color: #FFFFFF;
+    padding: 1em;
+}
+p{
+    color: #E98A8A;
+}
+.j{
+    font-size: 1.4rem;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+footer{
+    font-size: 1.2rem;
+    font-weight: 200;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+    margin: 0;
+    padding: 0;
+}
+.f{
+    padding: 30px;
+}
+img{
+    width: 200px;
+    justify-self: center;
+}

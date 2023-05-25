@@ -1,0 +1,46 @@
+.cahe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.star{
+    color: #ffc107;
+}
+.adi{
+
+    border: 1px solid black;
+    color: #ffc107;
+	position: relative;
+}
+
+/* .adi::after{
+    content: "\A";
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+    color: black;
+
+} */
+
+.ra{
+   color: black; 
+}
+img{
+    height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.im{
+    width: 30%;
+}
+.im1{
+    width:30%;
+}
+.m{
+    height: 50%;
+}
+.col-7{
+    padding: 20px;
+}

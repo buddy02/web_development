@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .a{
+        margin-bottom: 10px;
+    }
+    h1{
+        text-align: center;
+    }
+    button{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: block;
+        margin: auto;
+        border: 0.5px solid rgb(176, 176, 176);
+        background-color: rgb(208, 208, 208);
+        font-size: 1.05rem;
+        margin-top: 10px;
+        padding: 15px 40px;
+        border-radius: 5px;
+    }
+    form {
+        width: 600px;
+        margin: auto;
+        background-color: rgb(241, 241, 241);
+        padding: 50px;
+        font-size: 1.2rem;
+    }
+    input[type=text],
+    input[type=email],
+    input[type=number],
+    input[type=date],
+    input[type=password],
+    select,
+    textarea {
+        padding: 13px;
+        margin-bottom: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <h1>Online Event Registration Form</h1>
+    <form action="">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="" id="name">
+        </div>
+        <div>
+            <label for="email">E-mail</label>
+            <input type="email" name="" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="" id="password">
+        </div>
+        <div class="a">
+            <label for="">Gender</label><br>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Other</label>
+        </div>
+        <div>
+            <label for="dob">Date Of Birth</label>
+            <input type="date" name="" id="dob">
+        </div>
+        <div>
+            <label for="mno">Mobile No</label>
+            <input type="number" name="" id="mno">
+        </div>
+        <div>
+            <label for="ad">Address</label>
+            <textarea name="ad" id="ad" rows="4"></textarea>
+        </div>
+        <div>
+            <label for="st">Number of tickets</label>
+            <select name="st" id="st">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+            </select>
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>

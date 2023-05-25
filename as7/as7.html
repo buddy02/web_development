@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table{
+        width: 60%;
+        margin: auto;
+        text-align: center;
+    }
+    table,th,td{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 15px;
+        font-size: 1.8rem;
+    }
+</style>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4">Title</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">subtitle</td>
+                <td colspan="2">subtitle</td>
+            </tr>
+            <tr>
+                <td rowspan="3">1 item <br>1 item <br>1 item</td>
+                <td rowspan="3">123 <br>123 <br>123</td>
+                <td rowspan="3">1 item <br>1 item <br>1 item</td>
+                <td rowspan="3">123 <br>123 <br>123</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">sub subtitle</td>
+                <td colspan="2">sub subtitle</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1{
+    color: #169797;
+
+    text-align: center;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 3px #7a82af;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    border: none;
+    padding: 10px 25px;
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    color: #332150;
+    background-color: #efc9af;
+    border-radius: 5px;
+}
+#btn1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+    border: none;
+    font-size: 2rem;
+    color: #332150;
+    background-color: #efc9af;
+
+}
